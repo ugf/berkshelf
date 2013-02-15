@@ -254,6 +254,7 @@ a.name {
 
 a.name img {
     border: 0;
+    display: block;
 }
 
 header ul {
