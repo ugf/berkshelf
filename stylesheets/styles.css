@@ -29,8 +29,8 @@ body {
   padding:10px 50px 0 0;
   font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 14px;
-	color: #232323;
-	background-color: #FBFAF7;
+	color: rgb(139, 143, 146);
+	background-color: rgb(36, 36, 36);
 	margin: 0;
 	line-height: 1.8em;
 	-webkit-font-smoothing: antialiased;
@@ -38,7 +38,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:#232323;
+  color:#FFF;
   margin:36px 0 10px;
 }
 
@@ -154,7 +154,7 @@ img {
 
 code, pre {
 	font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  color:#000;
+  color:rgb(255, 255, 255);
   font-size:14px;
 }
 
@@ -166,6 +166,10 @@ pre {
   overflow: auto;
   overflow-y: hidden;
 	margin-bottom: 32px;
+}
+
+pre code {
+    color: #000;
 }
 
 
@@ -246,6 +250,10 @@ a.header {
 
 a.name {
 	white-space: nowrap;
+}
+
+a.name img {
+    border: 0;
 }
 
 header ul {
