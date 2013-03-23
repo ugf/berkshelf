@@ -3,6 +3,8 @@ source 'https://rubygems.org'
 gemspec
 
 group :development do
+  gem 'test-kitchen', github: 'opscode/test-kitchen', branch: '1.0'
+
   gem 'coolline'
   gem 'guard', '>= 1.5.0'
   gem 'guard-cane'
